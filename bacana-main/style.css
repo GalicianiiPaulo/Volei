@@ -1,0 +1,58 @@
+*{margin: 0;
+padding: 0;
+}
+
+.cabecalho{background-color: #424E61; 
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.cabecalho-imagem{width:20%; height:20%;
+
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20;
+}
+
+
+.CBV{
+    background-image: linear-gradient(#424E61, #4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px 0;
+}
+
+.CBV-CONTEUDO{
+width:100%;
+
+}
+.CBV-TEXTO{
+    font-size:larger;
+font-family: 'Times New Roman', Times, serif;
+}
+.Jogador-img{
+    width: 120px;
+}
+.redes-sociais{
+    width: 24px;
+}
+.div-jogadores{
+    text-align:center;
+}
+.Jogadores-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.elenco{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape{
+    background-color: #4EBFE9;
+}
